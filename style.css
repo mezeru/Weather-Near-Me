@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(rgb(153, 153, 255),rgb(153, 153, 255));
+	color: white;
+}
+
+.Weather{
+
+	margin-bottom: 2rem;
+	color:  #0d0d0d;
+}
+
+.Weather h1{
+	font-size: 3rem;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.location , .temp , .atemp{
+	height: 15vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+}
+
+.humi , .Visi{
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+}
+
+.degree-sec{
+	display: flex;
+	align-items: center;
+}
+
+.location-timezone{
+
+font-family: 'Playfair Display', serif;
+font-weight: 900;
+font-size: 2.5rem;
+}
+
+.change{
+	cursor: pointer;
+}
+
+.temp-degree, .atemp-degree{
+	font-size: 3rem;
+	font-family: 'Playfair Display', serif;
+}
+
+.temp span{
+	margin-left: 1vh;
+	font-size: 2rem; 
+}
+
+.Humid, .Visibility{
+	padding-left: 1rem;
+}
+.Feelz{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 2rem;
+}
+
+.Desp{
+	font-size: 2rem;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+

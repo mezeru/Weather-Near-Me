@@ -1,4 +1,4 @@
-## Weather Near ME
+## Weather Near Me
 #### This app will tell you some components of weather around your location like
 - #### Temperature
 - #### Apparant Temperature

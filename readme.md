@@ -5,4 +5,4 @@
 - #### Humidity
 - #### Visibility
 - #### Overall Summary
-####### (using Darksky API : https://darksky.net/dev)
+(using Darksky API : https://darksky.net/dev)

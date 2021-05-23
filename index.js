@@ -20,7 +20,8 @@ window.addEventListener("load",() => {
 
 			fetch(api)
 				.then(response => {
-					return response.json();
+					let resp = response.json();
+					return resp;
 				})
 				.then(data => {
 					console.log(data);
